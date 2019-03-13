@@ -1,0 +1,10 @@
+create table animal(
+idanimal bigint not null primary key auto_increment,
+nomeanimal varchar(200) not null,
+especie varchar(200) not null,
+raca varchar(200) not null,
+nomedono varchar(200) not null,
+sexo varchar(11) not null,
+peso double(3,2) not null,
+idade int not null
+);
